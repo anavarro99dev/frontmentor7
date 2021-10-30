@@ -24,10 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  @include movil {
-    align-items: flex-start;
-    justify-content: center;
-  }
+  flex-wrap: wrap;
 }
 
 .flex-row {

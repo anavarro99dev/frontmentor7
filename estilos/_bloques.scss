@@ -1,1 +1,123 @@
-@import 'util';
+@import "util";
+
+// Estilos Desktop: 1440px-800px
+body {
+}
+main {
+  section#head {
+    h1 {
+    }
+    h2 {
+    }
+    p {
+    }
+  }
+  section#card1 {
+    h2 {
+    }
+    h3 {
+      @extend .flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    p {
+    }
+    button {
+    }
+  }
+  section#card2 {
+    h2 {
+    }
+    ul {
+      li {
+      }
+    }
+  }
+}
+footer {
+  flex-basis: 100%;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+// Propiedades Generales:
+h1, h2{
+    margin-bottom: 1rem;
+}
+main{
+}
+section {
+    padding: 2rem 1.5rem;
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+p {
+}
+button {
+    margin-top: 1.5rem; 
+    min-width: 100%;
+    min-height: 3rem;
+}
+ul {
+}
+li {
+}
+// Estilos Movil: 375px-npx
+@include movil {
+  body {
+  }
+  main {
+    section#head {
+      h1 {
+      }
+      h2 {
+      }
+      p {
+      }
+    }
+    section#card1 {
+      h2 {
+      }
+      h2 {
+      }
+      p {
+      }
+      button {
+      }
+    }
+    section#card2 {
+      h2 {
+      }
+      ul {
+        li {
+        }
+      }
+    }
+  }
+  footer {
+  }
+  // Propiedades Generales:
+  main{
+      margin: 5rem 2rem;
+  }
+  section {
+  }
+  h1 {
+  }
+  h2 {
+  }
+  h3 {
+  }
+  p {
+  }
+  button {
+
+  }
+  ul {
+  }
+  li {
+  }
+}
