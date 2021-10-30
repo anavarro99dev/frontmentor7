@@ -26,21 +26,25 @@ body {
 }
 main {
   section#head {
-    border-radius: rem(10px) rem(10px) 0 0;
     background-color: white;
     h1 {
       color: $Cyan;
+      font-size: 1.6rem;
     }
     h2 {
       color: $Bright_Yellow;
+      font-size: 1.2rem;
     }
     p {
       color: $Grayish_Blue;
+      font-size: 1.1rem;
+      max-width: 95%;
     }
   }
   section#card1 {
     background-color: $Cyan;
     h2 {
+      
     }
     h3 {
       font-size: 2.5rem;
@@ -60,7 +64,6 @@ main {
     }
   }
   section#card2 {
-    border-radius: 0 0 rem(10px) rem(10px);
     background-color: $Cyan_transparent;
     h2 {
     }
@@ -93,14 +96,24 @@ button {
   font-weight: 700;
   color: white;
 }
-main{
+main {
   box-shadow: darkgrey 1rem 1rem 3rem -1rem;
+  border-radius: rem(10px);
 }
-button{
+button {
   box-shadow: black 1rem 1rem 3rem -1rem;
   border: none;
 }
 section {
+}
+section#head {
+  border-radius: rem(10px) rem(10px) 0 0;
+}
+section#card1 {
+  border-radius: 0 0 0 rem(10px);
+}
+section#card2 {
+  border-radius: 0 0 rem(10px) 0;
 }
 h1 {
 }
@@ -125,11 +138,14 @@ li {
   main {
     section#head {
       h1 {
+        font-size: initial;
       }
       h2 {
         font-size: 1.1rem;
       }
       p {
+        font-size: 1rem;
+        max-width: fit-content;
       }
     }
     section#card1 {
@@ -156,14 +172,24 @@ li {
   footer {
   }
   // Propiedades Generales:
-  :root{
+  :root {
     font-size: 14px;
   }
   section {
   }
+  section#head {
+    border-radius: rem(10px) rem(10px) 0 0;
+  }
+  section#card1 {
+    border-radius: unset;
+  }
+  section#card2 {
+    border-radius: 0 0 rem(10px) rem(10px);
+  }
   h1 {
   }
   h2 {
+  font-size: 1.4rem;
   }
   h3 {
   }

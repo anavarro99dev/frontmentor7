@@ -36,3 +36,12 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  @include movil {
+    display: initial;
+  }
+}
