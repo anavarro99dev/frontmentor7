@@ -42,8 +42,8 @@
   display: grid;
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 
 @media screen and (max-width: 46.875rem) {
@@ -173,8 +173,8 @@ select {
   display: grid;
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 
 @media screen and (max-width: 46.875rem) {
@@ -226,8 +226,8 @@ select {
   display: grid;
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 
 @media screen and (max-width: 46.875rem) {
@@ -259,12 +259,12 @@ h1, h2 {
 }
 
 main {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
 }
 
 section {
-  padding: 2.5rem 2rem;
+  padding: 3rem 3rem;
 }
 
 section#head {
@@ -337,7 +337,6 @@ main section#head h2 {
 main section#head p {
   color: #98a6bd;
   font-size: 1.1rem;
-  max-width: 95%;
 }
 
 main section#card1 {
